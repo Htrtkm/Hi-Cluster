@@ -7,6 +7,7 @@ Hi-Cluster is an method that generate multiple MAGs (metagenome-assembled genome
 Hi-Cluster is composed of three scripts (link_counter.py, merge_contactfiles.py and Hi-Cluster.py) and can be devided into three steps.
 
 ## step1 (link_counter.py)
+this script generates contact information from samfiles.
 ```
 python link_counter.py (1)samfile.sam (2)scaffolds.fa (3)cutting_site (4)outputFileName (5)minimum_length (6)scaffoldList.txt
 
@@ -19,3 +20,4 @@ scaffoldList.txt  header of samfile. (which contain only a scaffold name per lin
 ```
 
 ## step2 (merge_contactfiles.py)
+this script integrates two contact files and generate a gml file which is information of proximity among scaffold with the style of network.
