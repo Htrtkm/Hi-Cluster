@@ -1,5 +1,5 @@
 # Hi-Cluster
-Hi-Cluster is a method that generate multiple MAGs (metagenome-assembled genomes) using Hi-C reads.
+Hi-Cluster is a method that generate multiple MAGs (metagenome-assembled genomes) from metagenome assembled scaffolds using Hi-C reads.
 
 # Usage
 
