@@ -1,16 +1,10 @@
 # Hi-Cluster
-<<<<<<< HEAD
+
 Hi-Cluster is an method that generate multiple MAGs (metagenome-assembled genomes) using Hi-C reads.
 
 # Usage
 
-Hi-Cluster is composed of two scripts(link_counter.py and Hi-Cluster.py).
-=======
-Hi-Cluster is a method that generate multiple MAGs (metagenome-assembled genomes) from metagenome assembled scaffolds using Hi-C reads.
-
-# Usage
-
-Hi-Cluster is composed of two scripts (link_counter.py and Hi-Cluster.py) and can be devided into two steps.
+Hi-Cluster is composed of three scripts (link_counter.py, merge_contactfiles.py and Hi-Cluster.py) and can be devided into three steps.
 
 ## step1 (link_counter.py)
 ```
@@ -23,4 +17,5 @@ outputFileName    out put file.
 minimum_length    minimum scaffold length.
 scaffoldList.txt  header of samfile. (which contain only a scaffold name per line.)
 ```
->>>>>>> 418176c10f4f9831afd7678b65abe816210f4748
+
+## step2 (merge_contactfiles.py)
