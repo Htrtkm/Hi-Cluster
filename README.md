@@ -1,2 +1,6 @@
 # Hi-Cluster
-scripts for binning tools using Hi-C reads
+Hi-Cluster is a method that generate multiple MAGs (metagenome-assembled genomes) using Hi-C reads.
+
+# Usage
+
+Hi-Cluster is composed of two scripts (link_counter.py and Hi-Cluster.py).
