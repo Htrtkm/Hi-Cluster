@@ -7,7 +7,7 @@ Hi-Cluster is composed of two scripts (link_counter.py and Hi-Cluster.py) and ca
 
 ## step1 (link_counter.py)
 ```
-python link_counter.py samfile.sam scaffolds.fa cutting_site outputFileName minimum_length scaffoldList.txt
+python link_counter.py (1)samfile.sam (2)scaffolds.fa (3)cutting_site (4)outputFileName (5)minimum_length (6)scaffoldList.txt
 
 samfile.sam       Mapping result of Hi-C reads to scaffolds. The file should be sam format.
 scaffolds.fa      input fasta file of scaffolds.
