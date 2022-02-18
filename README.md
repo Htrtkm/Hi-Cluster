@@ -20,4 +20,4 @@ scaffoldList.txt  header of samfile. (which contain only a scaffold name per lin
 ```
 
 ## step2 (merge_contactfiles.py)
-this script integrates two contact files and generate a gml file which is information of proximity among scaffold with the style of network.
+this script integrates two contact files and generate a gml file which is information of proximity among scaffolds with the style of network.
