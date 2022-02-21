@@ -24,11 +24,11 @@ this script integrates two contact files and generate a gml file which is inform
 ```
 python merge_contactfiles.py (1)contactFile1.txt (2)contactFile2.txt (3)outputGMLfile.gml (4)scaffoldList.txt (5) minimum_length
 
-contactFile1			output of link_counter.py
-contactFile2			output of link_counter.py
-outputGMLfile			output of merge_contactfiles.py
-scaffoldList.txt	header of samfile. (which contain only a scaffold name per line.)
-minimum_length		minimum scaffold length.
+contactFile1      output of link_counter.py
+contactFile2      output of link_counter.py
+outputGMLfile     output of merge_contactfiles.py
+scaffoldList.txt  header of samfile. (which contain only a scaffold name per line.)
+minimum_length    minimum scaffold length.
 ```
 
 ## step3 (Hi-Cluster.py)
@@ -36,8 +36,8 @@ this script creates MAGs from gml file.
 ```
 python Hi-Cluster.py (1)inputGMLfile.gml (2)fastafile.fa (3)threashold (4)outputFileName
 
-inputGMLfile.gml			input gml file
-fastafile.ga					input fasta file
-threashold						default (0.96)
-outputFileName				output file name
+inputGMLfile.gml  input gml file
+fastafile.fa      input fasta file
+threashold        default (0.96)
+outputFileName    output file name
 ```
