@@ -45,10 +45,10 @@ outputFileName    output file name
 ## Input file format
 ・scaffoldList.txt
 ```
-　scaffold1
-　scaffold2
-　scaffold3
-　   ・
-　   ・
-　   ・
+scaffold1
+scaffold2
+scaffold3
+   ・
+   ・
+   ・
 ```
