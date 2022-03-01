@@ -41,3 +41,13 @@ fastafile.fa      input fasta file
 threashold        default (0.96)
 outputFileName    output file name
 ```
+
+## Input file format
+・scaffoldList.txt
+
+　scaffold1
+　scaffold2
+　scaffold3
+　   ・
+　   ・
+　   ・
