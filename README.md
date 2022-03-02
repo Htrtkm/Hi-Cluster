@@ -38,7 +38,7 @@ python Hi-Cluster.py (1)inputGMLfile.gml (2)fastafile.fa (3)threashold (4)output
 
 inputGMLfile.gml  input gml file
 fastafile.fa      input fasta file
-threashold        default (0.96)
+threashold        the smaller this threashold is set, the more strictly scaffolds are selected. (default 0.96)
 outputFileName    output file name
 ```
 
